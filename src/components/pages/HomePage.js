@@ -14,6 +14,7 @@ export default class HomePage extends Component {
   fecthPopularMovies = async () => {
     const movies = await api.getPopularMovies();
     this.setState({ movies });
+    //
   };
 
   render() {
