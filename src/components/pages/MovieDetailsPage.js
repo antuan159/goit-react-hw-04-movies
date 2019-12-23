@@ -84,7 +84,7 @@ export default class MovieDetailsPage extends Component {
           <li>
             <Link
               to={{
-                pathname: `/movies/${match.params.moviesId}/Cast`,
+                pathname: `${match.url}/Cast`,
                 state: location.state,
               }}
             >
@@ -94,7 +94,7 @@ export default class MovieDetailsPage extends Component {
           <li>
             <Link
               to={{
-                pathname: `/movies/${match.params.moviesId}/Reviews`,
+                pathname: `${match.url}/Reviews`,
                 state: location.state,
               }}
             >
